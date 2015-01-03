@@ -1,0 +1,27 @@
+- name: Email
+  url: mailto:aaron@rocketsociety.com
+  fa-icon: fa-envelope-square
+
+- name: Github
+  url: https://github.com/aaron-nunley
+  fa-icon: fa-github-square
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/aaronnunley
+  fa-icon: fa-linkedin-square
+
+- name: Facebook
+  url: https://www.facebook.com/aaron.edward.nunley
+  fa-icon: fa-facebook-square
+
+- name: Twitter
+  url: https://twitter.com/rocketsocietyan
+  fa-icon: fa-twitter-square
+
+- name: Steam
+  url: https://steamcommunity.com/id/rsaaron
+  fa-icon: fa-steam-square
+
+- name: Spotify
+  url: https://open.spotify.com/user/12121196251
+  fa-icon: fa-spotify
