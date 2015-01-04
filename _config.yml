@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Jekyll default build.  To-do:  Everything.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aaron.rocketsociety.com" # the base hostname & protocol for your site
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:title
 
 # Build settings
 markdown: kramdown
