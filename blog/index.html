@@ -7,7 +7,6 @@ permalink: /blog/
 <div class="row clearfix">
   <div class="col-md-12 column">
     {% for post in site.posts %}
-
       <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
@@ -15,10 +14,7 @@ permalink: /blog/
         {{ post.date | date: "%b %-d, %Y" }}
       </h5>
       <p>{{ post.summary }}</p>
-
     {% endfor %}
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span></a>
   </div>
 </div>
-
-
