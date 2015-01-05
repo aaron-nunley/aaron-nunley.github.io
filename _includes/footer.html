@@ -9,6 +9,7 @@
 
   <div class="row clearfix">
     <div class="col-md-6 column footer">
+      <h6>Connect</h6>
       <p>
         {% for social in site.data.social %}
           <a href="{{ social.url }}" target="_blank"><i class="fa {{ social.fa-icon }} fa-fw"></i>&nbsp; {{ social.name }}</a><br />
@@ -18,7 +19,9 @@
     </div>
 
     <div class="col-md-6 column footer">
+      <h6>Acknowledgements</h6>
       {% include credits.html %}
-      <p class="disclaimer">© <a href="mailto:aaron@rocketsociety.com">Aaron Nunley</a>, 2015. Unauthorized use and/or duplication of this material without express and written permission from this blog’s author is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to myself with appropriate and specific direction to the original content.</p>
+      <h6>© <a href="mailto:aaron@rocketsociety.com">Aaron Nunley</a>, 2015.</h6>
+      <p class="disclaimer">Unauthorized use and/or duplication of this material without express and written permission from this blog’s author is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to myself with appropriate and specific direction to the original content.</p>
     </div>
   </div>
