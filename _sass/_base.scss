@@ -223,8 +223,9 @@ pre {
  */
 
 .navbar-custom {
-  background-color: $brand-color;
-  border-color: darken($brand-color, 10%);
+    background-color: $brand-color;
+    border-color: darken($brand-color, 10%);
+    font-weight: $base-font-m-weight;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
