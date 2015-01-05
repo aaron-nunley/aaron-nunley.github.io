@@ -6,8 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aaron.rocketsociety.com" # the base hostname & protocol for your site
 permalink: /blog/:year/:title
-
-# Build settings
+exclude: [vendor]
 markdown: kramdown
 
 sass:
