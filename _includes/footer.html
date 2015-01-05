@@ -8,16 +8,16 @@
   <div class="row clearfix">
     <div class="col-md-6 column footer">
 
+      <div class="list-group">
         {% for social in site.data.social %}
-          <a href="{{ social.url }}" alt="{{ social.name }}" target="_blank" class="icon">
-            <span class="fa {{ social.fa-icon }}"></span>
-          </a>
+          <a href="{{ social.url }}" target="_blank" class="list-group-item"><i class="fa {{ social.fa-icon }} fa-fw"></i>&nbsp; {{ social.name }}</a><br />
         {% endfor %}
+      </div>
 
     </div>
 
     <div class="col-md-6 column footer">
       <p>This site was built using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and is hosted via <a href="https://pages.github.com/" target="_blank">Github Pages</a>.  Twitter's <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> was my framework of choice for an easy responsive layout.  Icons are courtesy of <a href="http://fontawesome.io/" target="_blank">Font Awesome</a> by <a href="https://twitter.com/davegandy" target="_blank">Dave Gandy</a>.  This site uses the font <a href="https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro" target="_blank">Source Sans Pro</a> by <a href="https://plus.google.com/108888178732927400671/about" target="_blank">Paul D. Hunt</a>.</p>
-      <p>© <a href="mailto:aaron@rocketsociety.com">Aaron Nunley</a>, 2015. Unauthorized use and/or duplication of this material without express and written permission from this blog’s author is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to myself with appropriate and specific direction to the original content.</p>
+      <p class="disclaimer">© <a href="mailto:aaron@rocketsociety.com">Aaron Nunley</a>, 2015. Unauthorized use and/or duplication of this material without express and written permission from this blog’s author is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to myself with appropriate and specific direction to the original content.</p>
     </div>
   </div>
